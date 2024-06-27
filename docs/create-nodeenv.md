@@ -1,8 +1,7 @@
-# How to create an Angular project in nodeenv
+# How to create a node virtual environment
 
-This procedure describes how to create a nodeenv virtual environment on Windows for developing Angular applications.
+This procedure describes how to create an isolated Node.js virtual environment.
 
-**Note**: This procedure uses Git Bash for Windows; therefore, Linux-based commands will be used throughout the procedure.
 
 ## Prerequisites
 
@@ -72,27 +71,3 @@ This procedure describes how to create a nodeenv virtual environment on Windows 
     ```
     (venv) $ node -v
     ```
-
-    **Note**: Node.js and Angular versions must be compatible; to determine which versions of Angular to use with your Node.js version, refer to [Version compatibility](https://angular.io/guide/versions).
-
-1. Change out of your _virtual-environments_ directory, and create a projects directory:
-
-    ```
-    (venv) $ mkdir projects
-    ```
-
-1. Change into the _projects_ directory, and run the following command to create an Angular application:
-
-    ```
-    (venv) $ npx @angular/cli@<version> new <project_name>
-    ```
-
-    Where `<version>` is the version of Angular to install and `<project_name>` is the name of the Angular project to create.
-
-1. Change into the application directory, and run the following command to build and serve the application:
-
-    ```
-    (venv) $ ng serve
-    ```
-
-1. Access the application in a browser at `http://localhost:4200/`.
