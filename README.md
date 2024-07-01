@@ -1,11 +1,11 @@
 # Jana Owens | Senior Technical Writer & Software Engineer
 
 ## About Me
-I am a Senior Technical Writer & Software Engineer with over 10 years' experience in technical communications, web development, and data ETL. For details regarding my experience, refer to my website ([www.janaowens.com](https://www.janaowens.com)) or my [LinkedIn profile](https://www.linkedin.com/in/janaowens).
+With over 20 years' experience in the industry, I have a diverse skill set that includes technical communications, data engineering, and web development. For additional information regarding my experience, refer to my website ([www.janaowens.com](https://www.janaowens.com)) and [my LinkedIn profile](https://www.linkedin.com/in/janaowens).
 
 ## About this Repository
 
-This repository includes samples of documentation I have written. 
+This repository includes (but is not limited to) documentation I have written over the years. 
 
 **Note**: Documents have been modified to remove proprietary information where applicable.
 
@@ -21,7 +21,9 @@ This repository includes samples of documentation I have written.
 
 ## API Documentation
 
-I wrote the initial documentation for the following [Cisco Support APIs](https://developer.cisco.com/docs/support-apis/introduction-to-cisco-support-apis/) using the Software Requirements Specifications.
+I designed, created, and maintained the following API documentation for the [Cisco Support APIs](https://developer.cisco.com/docs/support-apis/introduction-to-cisco-support-apis/).
+
+**Note**: This documentation is currently maintained by the individual API development teams.
 
 * [Automated Software Distribution](https://developer.cisco.com/docs/support-apis/automated-software-distribution)
 * [Bug](https://developer.cisco.com/docs/support-apis/bug)
