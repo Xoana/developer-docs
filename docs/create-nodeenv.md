@@ -28,7 +28,7 @@ This procedure describes how to create an isolated Node.js virtual environment.
 
     Where `<venv_name>` is the name of the virtual environment.
 
-1. Run the following commands to activate the python virtual environment:
+1. Run the following command to activate the python virtual environment:
 
     ```
     $ source <path_to_venv>/Scripts/activate
@@ -52,7 +52,7 @@ This procedure describes how to create an isolated Node.js virtual environment.
     (venv) $ nodeenv -p
     ```
 
-    **Note**: To install a specific version of node, use the `--node` command-line option; for example:
+    To install a specific version of node, use the `--node` command-line option; for example:
 
     ```
     (venv) $ nodeenv -p --node=<node_version>
